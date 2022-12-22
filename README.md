@@ -1,5 +1,7 @@
 # LogTestSystem
 
+## Overview
+
 1. Enable each individual logging framework with minimum code/config/dependency.
 
 - jcl-logging
@@ -20,3 +22,8 @@
   - log4j1
   - log4j2 -> wire to log4j1
   - slf4j + log4j1
+
+## Run Instruction
+
+- set up JDK >= 1.8
+- import maven dependencies from `pom.xml`
